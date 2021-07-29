@@ -21,8 +21,8 @@ const Hobbies = () => {
                     </i>
                 </li>
                 <li className="hobby">
-                    <i className="fas fa-bitcoin">
-                        <span>Crypto-monnaies</span>
+                    <i className="fab fa-bitcoin">
+                        <span><strong>Crypto-monnaies</strong></span>
                     </i>
                 </li>
                 <li className="hobby">

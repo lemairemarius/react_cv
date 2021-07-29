@@ -3,16 +3,22 @@ import React from 'react';
 const Experience = () => {
     return (
         <div className="experience">
-            <h3>Expériences</h3>
+            <h3>Derniére  formation :</h3>
             <div className="exp1">
-                <h4>diecteur</h4>
-                <h5>2018-2020</h5>
-                <p>Lorem ipsum</p>
+                <h4>CDA Niveau II (Concepteur Developpeur d'Applications).</h4>
+                <h5>Février - 2020 / Janvier - 2021</h5>
+                <p>- Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité<br />
+                    - Concevoir et développer la persistance des données en intégrant les recommandations de sécurité<br />
+                    - Concevoir et developper une application multicouche répartie en intégrant les recommandations de sécurité </p>
             </div>
+
             <div className="exp-2">
-                <h4>blabla</h4>
-                <h5>2190-2504</h5>
-                <p>lorem ipsum</p>
+                <h3>Derniére expérience :</h3>
+                <h4>Professeur des arts du cirque</h4>
+                <h5>Juin - 2017 / juillet - 2020</h5>
+                <p>- Initier les éléves aux différentes formes d'art du cirque (théatre,danse...).<br />
+                    - Initier les éléves aux activitées du cirque (jonglerie,equilibre sur objets...).<br />
+                    - Accompagner les éléves dans leurs création de numéros pour une représentation ou l'entrée aux grandes écoles. </p>
             </div>
         </div>
     );
