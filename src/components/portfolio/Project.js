@@ -41,7 +41,14 @@ handleInfo= () => {
                             <div className="infosContent">
                                 <div className="head">
                                     <h2>{name}</h2>
+                                    <div className="SourceCode">
+                                        <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source
+                                        </a>
+                                    </div>
                                 </div>
+                                <p className="text">{info}</p>
+
+                                <div className="button return" onClick={this.handleInfo}>Retoruner sur la page</div>
                             </div>
                         </div>
 
